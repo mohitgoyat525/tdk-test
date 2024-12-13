@@ -72,7 +72,7 @@ const Header = () => {
                         <p className='text-white font-normal uppercase text-xs'>menu</p>
                     </div>
                 </nav>
-            </div>
+            </div> 
         </>
     );
 };
