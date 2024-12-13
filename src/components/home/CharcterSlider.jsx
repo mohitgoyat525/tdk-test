@@ -48,7 +48,7 @@ function CharcterSwiper() {
                             <img
                                 src={item.img}
                                 alt='cars'
-                                className="w-full max-w-[375px] h-[571px] rounded-xl object-cover pointer-events-none max-sm:mx-auto"
+                                className="w-full max-w-[375px] h-[571px] rounded-xl object-cover pointer-events-none max-md:mx-auto"
                             />
                         </SwiperSlide>
                     ))}

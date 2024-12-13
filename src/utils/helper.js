@@ -1,23 +1,23 @@
 export const NAVBAR_LIST = [
   {
     name: "Menu One ",
-    links: "/Menuone",
+    links: "/menuone",
   },
   {
     name: "Menu Two",
-    links: "/MenuTwo",
+    links: "/menuTwo",
   },
   {
     name: "Menu Three",
-    links: "/MenuThree",
+    links: "/menuThree",
   },
   {
     name: "Menu Four",
-    links: "/MenuFour",
+    links: "/menuFour",
   },
   {
     name: "Menu Five",
-    links: "/MenuFive",
+    links: "/menuFive",
   },
 ];
 
