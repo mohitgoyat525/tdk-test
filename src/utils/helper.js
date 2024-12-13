@@ -21,7 +21,7 @@ export const NAVBAR_LIST = [
   },
 ];
 
-export const ANIME_IMG_LIST = [
+export const CARS_IMG_LIST = [
   {
     img:'/assets/images/jpg/gojo-img.jpg'
   },

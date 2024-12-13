@@ -7,7 +7,7 @@ import 'swiper/css/autoplay';
 
 // Import required modules
 import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
-import { ANIME_IMG_LIST } from '../../utils/helper';
+import { CARS_IMG_LIST } from '../../utils/helper';
 
 // Component
 function CharcterSwiper() {
@@ -43,11 +43,11 @@ function CharcterSwiper() {
                     modules={[FreeMode, Pagination, Autoplay]}
                     className="mySwiper"
                 >
-                    {ANIME_IMG_LIST.map((item, i) => (
+                    {CARS_IMG_LIST.map((item, i) => (
                         <SwiperSlide key={i} className='pb-10'>
                             <img
                                 src={item.img}
-                                alt={`Anime ${i}`}
+                                alt='cars'
                                 className="w-full max-w-[375px] h-[571px] rounded-xl object-cover pointer-events-none max-sm:mx-auto"
                             />
                         </SwiperSlide>
