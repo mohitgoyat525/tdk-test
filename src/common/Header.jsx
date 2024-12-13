@@ -30,8 +30,8 @@ const Header = () => {
         <>
             <div className='flex w-full justify-between lg:bg-offBlue max-xl:pl-5 max-xl:pr-3 max-lg:hidden'>
                 <div className="container lg:flex lg:w-full lg:justify-between items-center ">
-                    <img className='max-w-[115px] max-h-6 max-md:max-w-20' src="./assets/images/webp/logo.webp" alt="logo" />
-                    <img className='max-w-[427px] max-lg:hidden' src="./assets/images/webp/header-img.webp" alt="logo" />
+                    <img className='max-w-[115px] pointer-events-none max-h-6 max-md:max-w-20' src="./assets/images/webp/logo.webp" alt="logo" />
+                    <img className='max-w-[427px] pointer-events-none max-lg:hidden' src="./assets/images/webp/header-img.webp" alt="logo" />
                 </div>
             </div>
             <div className='container'>
