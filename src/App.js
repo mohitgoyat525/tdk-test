@@ -6,8 +6,6 @@ import MenuThree from "./view/MenuThree";
 import MenuFour from "./view/MenuFour";
 import MenuFive from "./view/MenuFive";
 import Home from "./view/Home";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <>
