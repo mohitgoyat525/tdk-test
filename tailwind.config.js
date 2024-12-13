@@ -20,6 +20,10 @@ module.exports = {
       colors: {
         darkBlue: "#0046AD",
         offBrown: "#525252",
+        offBlue: "#023DA0",
+      },
+      fontSize: {
+        sm: "13px,",
       },
     },
   },
